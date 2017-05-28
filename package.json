@@ -1,0 +1,41 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "react-app",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=develop node app.js",
+    "start:dev": "node app.js",
+    "test": "karma start --single-run=true"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesahni/reactApp.git"
+  },
+  "keywords": [
+    "react-app"
+  ],
+  "author": "urvashi",
+  "homepage": "https://github.com/mesahni/reactApp#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-request-proxy": "^2.0.0",
+    "serve-static": "^1.12.3",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "css-loader": "^0.28.3",
+    "express": "^4.15.3",
+    "express-request-proxy": "^2.0.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.5",
+    "sass-loader": "^6.0.5",
+    "serve-static": "^1.12.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
